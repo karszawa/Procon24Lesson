@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A001B6B81804F306008CD027 /* direct.png in Resources */ = {isa = PBXBuildFile; fileRef = A001B6B71804F306008CD027 /* direct.png */; };
+		A001B6BA1804F4B9008CD027 /* dices2.png in Resources */ = {isa = PBXBuildFile; fileRef = A001B6B91804F4B9008CD027 /* dices2.png */; };
+		A03978C818083ED1004E0598 /* dices.png in Resources */ = {isa = PBXBuildFile; fileRef = A03978C718083ED1004E0598 /* dices.png */; };
+		A03978F11808D10F004E0598 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = A03978E81808D10E004E0598 /* 2.png */; };
+		A03978F21808D10F004E0598 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = A03978E91808D10E004E0598 /* 3.png */; };
+		A03978F31808D10F004E0598 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = A03978EA1808D10E004E0598 /* 4.png */; };
+		A03978F41808D10F004E0598 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = A03978EB1808D10E004E0598 /* 5.png */; };
+		A03978F51808D10F004E0598 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = A03978EC1808D10E004E0598 /* 6.png */; };
+		A03978F61808D10F004E0598 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = A03978ED1808D10E004E0598 /* 7.png */; };
+		A03978F71808D10F004E0598 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = A03978EE1808D10E004E0598 /* 8.png */; };
+		A03978F81808D10F004E0598 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = A03978EF1808D10F004E0598 /* 9.png */; };
+		A03978FA1808D22E004E0598 /* sintyoku.gif in Resources */ = {isa = PBXBuildFile; fileRef = A03978F91808D22E004E0598 /* sintyoku.gif */; };
+		A089876A18093FD200AE01FF /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = A089876918093FD200AE01FF /* 1.png */; };
 		A0979BFB18045D58002B1E74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0979BFA18045D58002B1E74 /* Foundation.framework */; };
 		A0979BFD18045D58002B1E74 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0979BFC18045D58002B1E74 /* CoreGraphics.framework */; };
 		A0979BFF18045D58002B1E74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0979BFE18045D58002B1E74 /* UIKit.framework */; };
@@ -21,6 +34,7 @@
 		A0979C1C18045D59002B1E74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0979BFE18045D58002B1E74 /* UIKit.framework */; };
 		A0979C2418045D59002B1E74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0979C2218045D59002B1E74 /* InfoPlist.strings */; };
 		A0979C2618045D59002B1E74 /* ProconLessonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0979C2518045D59002B1E74 /* ProconLessonTests.m */; };
+		A0979C3218046B04002B1E74 /* example.png in Resources */ = {isa = PBXBuildFile; fileRef = A0979C3118046B04002B1E74 /* example.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +48,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A0979BF718045D58002B1E74 /* ProconLesson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProconLesson.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A001B6B71804F306008CD027 /* direct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = direct.png; sourceTree = "<group>"; };
+		A001B6B91804F4B9008CD027 /* dices2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dices2.png; sourceTree = "<group>"; };
+		A03978C718083ED1004E0598 /* dices.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dices.png; sourceTree = "<group>"; };
+		A03978E81808D10E004E0598 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		A03978E91808D10E004E0598 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		A03978EA1808D10E004E0598 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		A03978EB1808D10E004E0598 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		A03978EC1808D10E004E0598 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		A03978ED1808D10E004E0598 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		A03978EE1808D10E004E0598 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		A03978EF1808D10F004E0598 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		A03978F91808D22E004E0598 /* sintyoku.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sintyoku.gif; sourceTree = "<group>"; };
+		A089876918093FD200AE01FF /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		A0979BF718045D58002B1E74 /* Procon24.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Procon24.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0979BFA18045D58002B1E74 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A0979BFC18045D58002B1E74 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		A0979BFE18045D58002B1E74 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		A0979C0218045D58002B1E74 /* ProconLesson-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProconLesson-Info.plist"; sourceTree = "<group>"; };
+		A0979C0218045D58002B1E74 /* Procon24-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Procon24-Info.plist"; sourceTree = "<group>"; };
 		A0979C0418045D58002B1E74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A0979C0618045D58002B1E74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A0979C0818045D58002B1E74 /* ProconLesson-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProconLesson-Prefix.pch"; sourceTree = "<group>"; };
+		A0979C0818045D58002B1E74 /* Procon24-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Procon24-Prefix.pch"; sourceTree = "<group>"; };
 		A0979C0918045D58002B1E74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A0979C0A18045D58002B1E74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A0979C0D18045D58002B1E74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0979C0F18045D58002B1E74 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A0979C1018045D58002B1E74 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A0979C1218045D58002B1E74 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A0979C1818045D59002B1E74 /* ProconLessonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProconLessonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0979C1818045D59002B1E74 /* Procon24Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Procon24Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0979C1918045D59002B1E74 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		A0979C2118045D59002B1E74 /* ProconLessonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProconLessonTests-Info.plist"; sourceTree = "<group>"; };
+		A0979C2118045D59002B1E74 /* Procon24Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Procon24Tests-Info.plist"; sourceTree = "<group>"; };
 		A0979C2318045D59002B1E74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A0979C2518045D59002B1E74 /* ProconLessonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProconLessonTests.m; sourceTree = "<group>"; };
+		A0979C3118046B04002B1E74 /* example.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,8 +120,8 @@
 		A0979BF818045D58002B1E74 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A0979BF718045D58002B1E74 /* ProconLesson.app */,
-				A0979C1818045D59002B1E74 /* ProconLessonTests.xctest */,
+				A0979BF718045D58002B1E74 /* Procon24.app */,
+				A0979C1818045D59002B1E74 /* Procon24Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,10 +154,11 @@
 		A0979C0118045D58002B1E74 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A0979C0218045D58002B1E74 /* ProconLesson-Info.plist */,
+				A0979C3318046B12002B1E74 /* images */,
+				A0979C0218045D58002B1E74 /* Procon24-Info.plist */,
 				A0979C0318045D58002B1E74 /* InfoPlist.strings */,
 				A0979C0618045D58002B1E74 /* main.m */,
-				A0979C0818045D58002B1E74 /* ProconLesson-Prefix.pch */,
+				A0979C0818045D58002B1E74 /* Procon24-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,18 +175,39 @@
 		A0979C2018045D59002B1E74 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A0979C2118045D59002B1E74 /* ProconLessonTests-Info.plist */,
+				A0979C2118045D59002B1E74 /* Procon24Tests-Info.plist */,
 				A0979C2218045D59002B1E74 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A0979C3318046B12002B1E74 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A089876918093FD200AE01FF /* 1.png */,
+				A03978E81808D10E004E0598 /* 2.png */,
+				A03978E91808D10E004E0598 /* 3.png */,
+				A03978EA1808D10E004E0598 /* 4.png */,
+				A03978EB1808D10E004E0598 /* 5.png */,
+				A03978EC1808D10E004E0598 /* 6.png */,
+				A03978ED1808D10E004E0598 /* 7.png */,
+				A03978EE1808D10E004E0598 /* 8.png */,
+				A03978EF1808D10F004E0598 /* 9.png */,
+				A03978F91808D22E004E0598 /* sintyoku.gif */,
+				A001B6B71804F306008CD027 /* direct.png */,
+				A001B6B91804F4B9008CD027 /* dices2.png */,
+				A0979C3118046B04002B1E74 /* example.png */,
+				A03978C718083ED1004E0598 /* dices.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A0979BF618045D58002B1E74 /* ProconLesson */ = {
+		A0979BF618045D58002B1E74 /* Procon24 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A0979C2918045D59002B1E74 /* Build configuration list for PBXNativeTarget "ProconLesson" */;
+			buildConfigurationList = A0979C2918045D59002B1E74 /* Build configuration list for PBXNativeTarget "Procon24" */;
 			buildPhases = (
 				A0979BF318045D58002B1E74 /* Sources */,
 				A0979BF418045D58002B1E74 /* Frameworks */,
@@ -167,14 +217,14 @@
 			);
 			dependencies = (
 			);
-			name = ProconLesson;
+			name = Procon24;
 			productName = ProconLesson;
-			productReference = A0979BF718045D58002B1E74 /* ProconLesson.app */;
+			productReference = A0979BF718045D58002B1E74 /* Procon24.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A0979C1718045D59002B1E74 /* ProconLessonTests */ = {
+		A0979C1718045D59002B1E74 /* Procon24Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A0979C2C18045D59002B1E74 /* Build configuration list for PBXNativeTarget "ProconLessonTests" */;
+			buildConfigurationList = A0979C2C18045D59002B1E74 /* Build configuration list for PBXNativeTarget "Procon24Tests" */;
 			buildPhases = (
 				A0979C1418045D59002B1E74 /* Sources */,
 				A0979C1518045D59002B1E74 /* Frameworks */,
@@ -185,9 +235,9 @@
 			dependencies = (
 				A0979C1E18045D59002B1E74 /* PBXTargetDependency */,
 			);
-			name = ProconLessonTests;
+			name = Procon24Tests;
 			productName = ProconLessonTests;
-			productReference = A0979C1818045D59002B1E74 /* ProconLessonTests.xctest */;
+			productReference = A0979C1818045D59002B1E74 /* Procon24Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +254,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A0979BF218045D58002B1E74 /* Build configuration list for PBXProject "ProconLesson" */;
+			buildConfigurationList = A0979BF218045D58002B1E74 /* Build configuration list for PBXProject "Procon24" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,8 +267,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A0979BF618045D58002B1E74 /* ProconLesson */,
-				A0979C1718045D59002B1E74 /* ProconLessonTests */,
+				A0979BF618045D58002B1E74 /* Procon24 */,
+				A0979C1718045D59002B1E74 /* Procon24Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -228,9 +278,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A03978F71808D10F004E0598 /* 8.png in Resources */,
+				A089876A18093FD200AE01FF /* 1.png in Resources */,
+				A03978F81808D10F004E0598 /* 9.png in Resources */,
+				A03978F31808D10F004E0598 /* 4.png in Resources */,
 				A0979C1318045D58002B1E74 /* Images.xcassets in Resources */,
+				A03978F61808D10F004E0598 /* 7.png in Resources */,
 				A0979C0518045D58002B1E74 /* InfoPlist.strings in Resources */,
+				A001B6B81804F306008CD027 /* direct.png in Resources */,
+				A001B6BA1804F4B9008CD027 /* dices2.png in Resources */,
+				A03978F51808D10F004E0598 /* 6.png in Resources */,
+				A03978F21808D10F004E0598 /* 3.png in Resources */,
+				A0979C3218046B04002B1E74 /* example.png in Resources */,
+				A03978F11808D10F004E0598 /* 2.png in Resources */,
+				A03978F41808D10F004E0598 /* 5.png in Resources */,
+				A03978FA1808D22E004E0598 /* sintyoku.gif in Resources */,
 				A0979C0E18045D58002B1E74 /* Main.storyboard in Resources */,
+				A03978C818083ED1004E0598 /* dices.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +332,7 @@
 /* Begin PBXTargetDependency section */
 		A0979C1E18045D59002B1E74 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A0979BF618045D58002B1E74 /* ProconLesson */;
+			target = A0979BF618045D58002B1E74 /* Procon24 */;
 			targetProxy = A0979C1D18045D59002B1E74 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -381,9 +445,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ProconLesson/ProconLesson-Prefix.pch";
-				INFOPLIST_FILE = "ProconLesson/ProconLesson-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ProconLesson/Procon24-Prefix.pch";
+				INFOPLIST_FILE = "ProconLesson/Procon24-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = Procon24;
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -394,9 +460,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ProconLesson/ProconLesson-Prefix.pch";
-				INFOPLIST_FILE = "ProconLesson/ProconLesson-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ProconLesson/Procon24-Prefix.pch";
+				INFOPLIST_FILE = "ProconLesson/Procon24-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = Procon24;
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -417,8 +485,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ProconLessonTests/ProconLessonTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ProconLessonTests/Procon24Tests-Info.plist";
+				PRODUCT_NAME = Procon24Tests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -436,8 +504,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProconLesson/ProconLesson-Prefix.pch";
-				INFOPLIST_FILE = "ProconLessonTests/ProconLessonTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ProconLessonTests/Procon24Tests-Info.plist";
+				PRODUCT_NAME = Procon24Tests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -446,7 +514,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A0979BF218045D58002B1E74 /* Build configuration list for PBXProject "ProconLesson" */ = {
+		A0979BF218045D58002B1E74 /* Build configuration list for PBXProject "Procon24" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A0979C2718045D59002B1E74 /* Debug */,
@@ -455,21 +523,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A0979C2918045D59002B1E74 /* Build configuration list for PBXNativeTarget "ProconLesson" */ = {
+		A0979C2918045D59002B1E74 /* Build configuration list for PBXNativeTarget "Procon24" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A0979C2A18045D59002B1E74 /* Debug */,
 				A0979C2B18045D59002B1E74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		A0979C2C18045D59002B1E74 /* Build configuration list for PBXNativeTarget "ProconLessonTests" */ = {
+		A0979C2C18045D59002B1E74 /* Build configuration list for PBXNativeTarget "Procon24Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A0979C2D18045D59002B1E74 /* Debug */,
 				A0979C2E18045D59002B1E74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
